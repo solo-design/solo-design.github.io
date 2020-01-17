@@ -107,7 +107,7 @@ a.navbar-brand{
 }
 .card-title{
 	font-weight: bold;}
-.card img{
+.newest img{
     height: 200px;
 }
 .galeri{
@@ -144,14 +144,45 @@ a.navbar-brand{
     background-color: #ACACAC;
 }
 /*about*/
-.jumbotron{
+.about-atas{
+	z-index: 1;
+	position: relative;
+	margin-top: -10px;
 	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
 	border-radius: 12px;
+	background-color: white;
+	padding: 30px; 
+}
+.about-atas h4{
+	font-family: 'Patua One', cursive;
 }
 .tu{
 	border: 1px solid #ACACAC;
-	margin-top: -30px;
+	margin-top: -10px;
+	padding: auto;
 
+}
+.komen{
+	font-family: Viga;
+}
+.gal-card{
+	z-index: 1;
+	position: relative;
+	margin-top: 10px;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	background-color: #ACACAC;
+	padding: 20px; 
+}
+.gal-card img{
+	width: 250px;
+	height: 200px;
+}
+.gal-card h5{
+	font-family: 'Patua One', cursive;
+}
+.gal-ut{
+	margin-top: -20px;
 }
 @media (min-width: 992px) {
 	.carousel-item img{

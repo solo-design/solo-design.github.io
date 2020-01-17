@@ -20,98 +20,110 @@
   </head>
   <body>
     <!-- navbar --> 
+  <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+          <img src="img/n.png" alt="" width="20%"> Desa Borong</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Beranda <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown" style="list-style: none;">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profil Desa</a>
+                <ul class="dropdown-menu">
+                  <li >
+                    <a href="about.html" target="_blank" class="dropdown-item">Kenali Desa Borong</a>
+                  </li>
+                  <div role="separator" class="dropdown-divider"></div>
+                  </li>
+                  <li >
+                    <a href="" class="dropdown-item">Sejarah Desa</a>
+                  </li>
+                  <div role="separator" class="dropdown-divider"></div>
+                  </li>
+                  <li >
+                    <a href="" class="dropdown-item">Visi dan Misi Desa</a>
+                  </li>
+                  <div role="separator" class="dropdown-divider"></div>
+                  </li>
+                  <li >
+                    <a href="" class="dropdown-item">Pemerintah Desa</a>
+                  </li>
+                </ul>
+              </li>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-        <img src="img/n.png" alt="" width="20%"> Desa Borong</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Beranda <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown" style="list-style: none;">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profil Desa</a>
-              <ul class="dropdown-menu">
-                <li >
-                  <a href="" class="dropdown-item">Profil Wilayah Desa</a>
-                </li>
-                <div role="separator" class="dropdown-divider"></div>
-                </li>
-                <li >
-                  <a href="" class="dropdown-item">Sejarah Desa</a>
-                </li>
-                <div role="separator" class="dropdown-divider"></div>
-                </li>
-                <li >
-                  <a href="" class="dropdown-item">Visi dan Misi Desa</a>
-                </li>
-                <div role="separator" class="dropdown-divider"></div>
-                </li>
-                <li >
-                  <a href="" class="dropdown-item">Pemerintah Desa</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Media Desa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Informasi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kategori</a>
-            </li>
-            <li>
-          
-            <!-- login -->
-              <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-user fa-lg"></i></button></li>
-              </ul>
+              <li class="nav-item dropdown" style="list-style: none;">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Desa</a>
+                <ul class="dropdown-menu">
+                  <li >
+                    <a href="" class="dropdown-item">Berita Desa</a>
+                  </li>
+                  <div role="separator" class="dropdown-divider"></div>
+                  </li>
+                  <li >
+                    <a href="galeri.html" class="dropdown-item">Galeri Desa</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Informasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kategori</a>
+              </li>
+              <li>
+            
+              <!-- login -->
               <!-- Modal -->
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      ...
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-user fa-lg"></i></button>
+              </li>
+            </ul>
+                
+                
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-    
-            <!-- akhir login -->        
-          <form class="form-inline my-1">
-            <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
-            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Cari</button>
-          </form>
-        </div>  
-      </nav>
-
+                </div>    
+              <!-- akhir login -->      
+            <form class="form-inline my-1">
+              <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Cari</button>
+            </form>
+          </div>  
+        </nav>
 <!-- akhir nav -->
 <!-- content -->
 <div class="container mt-3">
-  <div class="border border-dark rounded">
+  <div class="about-atas">
     <div class="row justify-content-center">
       <div class="col-lg-6">
-        <h4 class="display-5">Kenali Desa Kami</h>
+        <h4 class="display-5">About</h4>
           <p class="lead">Borong, Manggala, Makassar</p>
+          <span class="text-muted pb-0">Updated at 23-10-2010, by Admin.</span>
       </div>
       <div class="col-lg-6">
         <div class="card">
-          <img src="img/carousel2.jpeg" class="card-img" alt="borong-view" style="height: 150px;">
+          <img src="img/carousel2.jpeg" class="card-img" alt="borong-view">
         </div>
       </div>
   </div>
@@ -136,8 +148,19 @@ Tak hanya rumah-rumah yang menjadi daya tarik desa Nagari Pariangan. Masjid Ishl
       </div>
     </div>
   </div>
+  <div class="container komen">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <p>Menemukan kesalahan atau saran?
+        tuliskan komentar anda!</p>
+      </div>
+    </div>
+  </div>
   </div>
 <!-- akhir content -->
+<!-- coment -->
+
+<!-- akhir coment -->
 <!-- footer -->
 <div class="container-lg mt-3">
   <div class="row footer">
